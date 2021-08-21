@@ -11,7 +11,7 @@ class Car{
     }
 }
 
-class Ford_Car extends Car{
+class Ford_Car extends Car{ 
     constructor(mode_Name, price){
         super(price)
         console.log("Second")
