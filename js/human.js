@@ -5,7 +5,7 @@ function Human(eye,hair,color){
     
 }
 function character(height){
-    this.height=height
+    this.height=height 
    
     console.log("there height is :"+height)
 }
