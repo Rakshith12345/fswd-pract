@@ -1,22 +1,38 @@
-class Car {
-    constructor(brand) {
-      this.carname = brand;
+class Human{
+    c_colour;
+    constructor(name){
+        this.name=name
+        this.c_colour="white"
+        
     }
-    present() {
-      return 'I have a ' + this.carname;
+    basic_details(){
+        console.log("colour is :"+this.c_colour)
+        
+        
+    console.log("name is "+this.name) 
+
     }
-  }
-  
-  class Model extends Car {
-    constructor(brand, mod) {
-      super(brand);
-      this.model = mod;
+}
+let x=new Human("raks")
+x.basic_details()
+
+class human_color extends Human{
+    c_height;
+    constructor(age){
+        
+        super()
+        this.age=age
+        this.c_height="5'6"
+        
     }
-    show() {
-      return this.present() + ', it is a ' + this.model;
+    basic_details(){
+        console.log("age is : "+this.age)
+        console.log("height is :"+this.c_height)
     }
-  }
-  
-  let myCar = new Model("Ford", "Mustang");
-  document.getElementById("demo").innerHTML = myCar.show();
-  
+    
+}
+let y=new human_color(25)
+y.basic_details()
+class main{
+    
+}
