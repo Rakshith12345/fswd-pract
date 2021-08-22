@@ -4,7 +4,7 @@ function Cars(car_brand,car_price){
 }
 function autopilot(){
     console.log("it has autopilot")
-}
+} 
 autopilot()
 
 
